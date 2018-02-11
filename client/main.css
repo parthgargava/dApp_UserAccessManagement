@@ -1,0 +1,48 @@
+/* CSS declarations go here */
+.height-100 {
+    height: 100%;
+}
+.height-0 {
+    height: 0;
+}
+
+.aside-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.aside {
+    background-color: #eee;
+    padding: 30px 0;
+}
+
+.aside-wrapper .container-wider {
+    padding: 0;
+}
+
+.aside-menu-list,
+.aside-menu-list li {
+    padding-left: 15px;
+    list-style: none;
+    background-color: #eee;
+}
+
+.aside-menu-list li a {
+    color: #777;
+}
+
+.aside-menu-list li a.active {
+    font-weight: 600;
+    color: #333;
+}
+
+.main-wrapper {
+    overflow: hidden;
+}
+
+.main {
+    z-index: 1;
+}
